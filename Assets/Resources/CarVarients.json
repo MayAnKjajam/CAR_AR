@@ -1,0 +1,24 @@
+{
+  "varients": [
+    {
+      "carNumber": 1,
+      "carName": "Benz GLS 580",
+      "prefabName": "Car1"
+    },
+    {
+      "carNumber": 2,
+      "carName": "Koenigsegg",
+      "prefabName": "Car2"
+    },
+    {
+      "carNumber": 3,
+      "carName": "Hummer",
+      "prefabName": "Car3"
+    },
+    {
+      "carNumber": 4,
+      "carName": "Lancer evox",
+      "prefabName": "Car4"
+    }
+  ]
+}
