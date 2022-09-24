@@ -22,6 +22,7 @@ public class SearchObjectButtonScript : MonoBehaviour
             {
                 if (g.gameObject.name != AssetName)
                 {
+                    g.GetComponent<ScaleMoveRotate>().ResetAllBools();
                     g.SetActive(false);
                 }
             }

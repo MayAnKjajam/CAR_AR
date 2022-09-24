@@ -24,6 +24,7 @@ public class CanvasManager : MonoBehaviour
             {
                 ScrollView.SetActive(false);
                 SearchPanel.SetActive(false);
+                break;
             }
             else
             {

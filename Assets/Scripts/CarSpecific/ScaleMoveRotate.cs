@@ -28,11 +28,11 @@ public class ScaleMoveRotate : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (!Scale && !Rotate && !Move && !CameraOverUIObject.obstacle)
+        if (!CameraOverUIObject.obstacle)
         {
             if (Canvas.activeInHierarchy)
             {
-                Canvas.SetActive(false);
+                ResetAllBools();
             }
             else
             {
@@ -160,7 +160,7 @@ public class ScaleMoveRotate : MonoBehaviour
         Car.material.color = Button.GetComponent<Image>().color;
     }
 
-    private void ResetAllBools()
+    public void ResetAllBools()
     {
         Move = false;
         Scale = false;
